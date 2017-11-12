@@ -1,7 +1,10 @@
+function boardMembers () {
   let polishedBoardMember;
 
   function BoardMember (name, homeState, training) {
+    
     this.name = name;
+    this.homeState = homeState;
     this.training = training;
 
     polishedBoardMember = `${this.name}, ${this.homeState}, ${this.training}`;
@@ -19,3 +22,4 @@
       return (`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
       }
   }
+}
