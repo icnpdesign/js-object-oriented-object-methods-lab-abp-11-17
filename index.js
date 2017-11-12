@@ -1,5 +1,4 @@
 function boardMembers () {
-    let polishedBoardMember = new BoardMember 
   function BoardMember (name, homeState, training) {
     this.name = name
     this.homeState = homeState
@@ -26,4 +25,5 @@ function boardMembers () {
         return (`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
       }
   }
+  let polishedBoardMember = new BoardMember 
 }
