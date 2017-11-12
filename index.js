@@ -1,4 +1,6 @@
 function boardMembers (name, homeState, training) {
+  let polishedBoardMember =`${name}, ${homeState},${training}`;
+  
   this.name = name;
   this.homeState = homeState;
   this.training = training;
@@ -14,4 +16,4 @@ function boardMembers (name, homeState, training) {
     console.log(`Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
 }
 
-let polishedBoardMember =`${name}, ${homeState},${training}`
+l
