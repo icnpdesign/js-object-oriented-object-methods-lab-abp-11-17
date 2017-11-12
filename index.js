@@ -1,13 +1,13 @@
 function boardMembers () {
-  let polishedBoardMember;
+  let polishedBoardMember = `${this.name}, ${this.homeState}, ${this.training}`;
 
   function BoardMember (name, homeState, training) {
-    
+
     this.name = name;
     this.homeState = homeState;
     this.training = training;
 
-    polishedBoardMember = `${this.name}, ${this.homeState}, ${this.training}`;
+    
 
 
     this.veto = function () {
