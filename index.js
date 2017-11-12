@@ -1,7 +1,8 @@
   let polishedBoardMember;
 
   function BoardMember (name, homeState, training) {
-    let polishedBoardMember = `${this.name}, ${this.homeState}, ${this.training}`;
+    polishedBoardMember = `${this.name}, ${this.homeState}, ${this.training}`;
+    
     this.name = name;
     this.homeState = homeState;
     this.training = training;
