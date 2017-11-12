@@ -3,7 +3,7 @@ function boardMembers () {
     this.name = name
     this.homeState = homeState
     this.training = training
-    let polishedBoardMember = new BoardMember
+
     polishedBoardMember.veto =
       function () {
         return ("No, I must disagree")
@@ -25,5 +25,5 @@ function boardMembers () {
         return (`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
       }
   }
-  let polishedBoardMember = new BoardMember 
+  let polishedBoardMember = new BoardMember
 }
