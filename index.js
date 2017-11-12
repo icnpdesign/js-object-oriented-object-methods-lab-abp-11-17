@@ -1,11 +1,11 @@
   let polishedBoardMember;
 
   function BoardMember (name, homeState, training) {
-    polishedBoardMember = `${this.name}, ${this.homeState}, ${this.training}`;
-    
     this.name = name;
-    this.homeState = homeState;
     this.training = training;
+
+    polishedBoardMember = `${this.name}, ${this.homeState}, ${this.training}`;
+
 
     this.veto = function () {
       return ("No, I must disagree")}
