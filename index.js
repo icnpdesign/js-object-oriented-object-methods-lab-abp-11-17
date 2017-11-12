@@ -2,6 +2,7 @@
     this.name = name
     this.homeState = homeState
     this.training = training
+    let polishedBoardMember = new BoardMember
     this.veto =
       function () {
         return ("No, I must disagree")
