@@ -7,25 +7,25 @@ function boardMembers () {
     this.training = training
   }
 
-  polishedBoardMember = new BoardMember
+  this = new BoardMember
 
-  polishedBoardMember.veto =
+  this.veto =
     function () {
       return ("No, I must disagree")
     }
-  polishedBoardMember.approve =
+  this.approve =
     function () {
       return ("You can do that!")
     }
-  polishedBoardMember.doCharity =
+  this.doCharity =
     function () {
       return ("I like to help people.")
     }
-  polishedBoardMember.releasePressStatement =
+  this.releasePressStatement =
     function () {
       return ("You will see great things from Scuber.")
     }
-  polishedBoardMember.sayHi =
+  this.sayHi =
     function () {
       return (`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
     }
