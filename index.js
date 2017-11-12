@@ -3,23 +3,23 @@
     this.homeState = homeState
     this.training = training
     let polishedBoardMember = new BoardMember
-    this.veto =
+    polishedBoardMember.veto =
       function () {
         return ("No, I must disagree")
       }
-    this.approve =
+    polishedBoardMember.approve =
       function () {
         return ("You can do that!")
       }
-    this.doCharity =
+    polishedBoardMember.doCharity =
       function () {
         return ("I like to help people.")
       }
-    this.releasePressStatement =
+    polishedBoardMember.releasePressStatement =
       function () {
         return ("You will see great things from Scuber.")
       }
-    this.sayHi =
+    polishedBoardMember.sayHi =
       function () {
         return (`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
       }
