@@ -1,8 +1,8 @@
 function boardMembers (name, homeState, training) {
-  let polishedBoardMember =`${name}, ${homeState},${training}`;
+  let polishedBoardMember = new BoardMember
 
   function BoardMember (name, homeState, training) {
-  
+
     this.veto = function () {
       console.log("No, I must disagree")}
     this.approve = function () {
