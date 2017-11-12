@@ -1,7 +1,8 @@
   function BoardMember (name, homeState, training) {
     this.name = name
     this.homeState = homeState
-    this.training = training
+    this.training = training }
+    
     let polishedBoardMember = new BoardMember
     polishedBoardMember.veto =
       function () {
